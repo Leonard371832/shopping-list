@@ -76,4 +76,15 @@ h1 {
     text-align: center; /* Centers the heading */
     
 }
+
+/* Cross out purchased item names and prices */
+.purchased {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Add space between the checkbox and item text */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
     
