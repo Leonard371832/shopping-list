@@ -1,0 +1,79 @@
+/* Styling the whole webpage */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 40px; 
+    background-color: #69c18f; 
+    color: black;
+    background-image: url('https://images.unsplash.com/photo-1487088678257-3a541e6e3922?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+}
+
+
+/* Styling main heading */
+h1 {
+    color: black; 
+}
+
+/* Styling the input fields */
+input {
+    padding: 10px; /* Adds space inside each input */
+    margin: 5px; /* Adds space outside each input */
+}
+
+/* Styles all buttons */
+button {
+    padding: 10px; 
+    margin: 5px; /* Adds space around buttons */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+/* Styles each shopping list item */
+li {
+    margin: 10; /* Adds space between list items */
+    padding: 10px; /* Adds space inside each list item */
+    background-color: rgb(221, 232, 16); 
+}
+
+/* Styles items that have been purchased */
+.purchased {
+    text-decoration: line-through; /* Draws a line through purchased items */
+    background-color: rgb(44, 42, 42); /* Gives purchased items background color */
+}
+
+/* Styles the total cost section */
+#totalCostContainer {
+    margin-top: 20px; /* Adds space above the total */
+    padding: 15px; /* Adds space inside the section */
+    background-color: white; /* Gives it a white background */
+    border: 2px solid darkgreen; /* Adds a green border */
+    border-radius: 8px; /* Rounds the corners */
+    color: darkgreen; /* Makes the text dark green */
+    font-size: 10x; /* Makes the text larger */
+    width: fit-content; /* Makes the section fit its content */
+    }
+
+/* Styles only the amount */
+#totalCost {
+    font-weight: bold; /* Makes the amount bold */
+}
+
+
+/* Changes the font type of the total cost text */
+#totalCostContainer {
+    font-family: Georgia, serif;
+}
+
+/* Styles the My Shopping List heading */
+h1 {
+    font-family: Arial, sans-serif; /* Changes the font type */
+    font-size: 36px; /* Makes the heading bigger */
+    color: rgb(190, 28, 39); /* Changes the text color */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers the heading */
+    
+}
+    

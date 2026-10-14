@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Shopping List</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <h1>My Shopping List</h1>
+    
+    <input type="text" id="itemInput" placeholder="Enter item name">
+    <!-- Allow the user to enter the name of the item -->
+    
+    <input type="number" id="priceInput" placeholder="Enter item price">
+    <!-- Allow the user to enter the item price -->
+
+    <button id="addButton">Add Item</button>
+    <!-- Button for adding an item to the list -->
+
+    <ul id="shoppingList"></ul>
+    <!-- Empty list where JavaScript will display shopping items -->
+
+   
+    <!-- Displays the total cost -->
+    <h3 id="totalCostContainer">
+    Total Cost: KSh <span id="totalCost">0</span>
+    </h3>
+
+    <button id="clearButton">Clear List</button>
+    <!-- Button for removing all shopping items -->
+
+    <script src="index.js"></script>
+    <!-- Connects the HTML file to the JavaScript file -->
+</body>
+
+</html>
+
